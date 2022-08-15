@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;    /*ANCHO */
+    height: 80px;   /*ALTO*/
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.container > a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+.container > a:hover{
+    color: blueviolet;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
